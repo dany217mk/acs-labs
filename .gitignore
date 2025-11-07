@@ -1,0 +1,161 @@
+# IDE и редакторы
+## JetBrains IDE (PyCharm, IntelliJ, CLion)
+./idea/
+*.iws
+*.iml
+*.ipr
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/aws.xml
+
+## VS Code
+.vscode/
+*.code-workspace
+
+## Eclipse
+.settings/
+*.project
+*.classpath
+.metadata/
+bin/
+tmp/
+
+## Vim
+*.swp
+*.swo
+*~
+
+
+# GitHub Actions
+.github/workflows/
+
+
+# Операционные системы
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+## Linux
+*~
+
+
+# Временные файлы
+*.tmp
+*.temp
+*.log
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+
+# Резервные копии и архивы
+*.bak
+*.backup
+*.old
+*.save
+*.orig
+*.rej
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+
+# Логи и дампы
+*.log
+*.dump
+*.sql
+*.pcap
+*.cap
+
+
+# Сетевые устройства (Cisco)
+*.vlan
+*.cfg
+startup-config
+private-config
+
+
+# Виртуальные машины и образы
+*.ova
+*.ovf
+*.vmdk
+*.vmx
+*.vmxf
+*.vmsd
+*.nvram
+*.vdi
+*.vhd
+*.vhdx
+
+
+# Конфиденциальные данные
+## Пароли, ключи, токены
+*.key
+*.pem
+*.crt
+*.cer
+config.txt
+credentials*
+*password*
+*secret*
+.env
+.env.local
+.env.production
+
+
+# Документы (опционально)
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+
+
+# Бинарные файлы
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+
+# Python (если используете)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+# Packet Tracer (если нужно)
+*.pkt
+*.pka
