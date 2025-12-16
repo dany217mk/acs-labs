@@ -166,7 +166,7 @@ ansible-playbook caddy_deploy.yml
 
 5. "Расширим"  конфиг вебсервера Caddy через заголовки headers
 Для замены стандартной страницы Caddy была добавлена собственная статическая страница index.html:<br>
-`roles/caddy-deploy/files/index.html:`
+`roles/caddy-deploy/files/index.html:`<br>
 ![Проверка](./assets/16.png)<br>
 Добавим HTTP-заголовки в конфигурацию Caddy::
 `roles/caddy-deploy/templates/Caddyfile.j2:`
